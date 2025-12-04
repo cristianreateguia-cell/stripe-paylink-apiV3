@@ -1,0 +1,27 @@
+{
+  "name": "stripe-paylink-apiv3",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "stripe": "^16.12.0"
+  },
+  "description": "API para generar links de pago con Stripe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianreateguia-cell/stripe-paylink-apiV3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianreateguia-cell/stripe-paylink-apiV3/issues"
+  },
+  "homepage": "https://github.com/cristianreateguia-cell/stripe-paylink-apiV3#readme"
+}
